@@ -1,0 +1,23 @@
+.message {
+    color: rgb(23, 152, 23);
+    font-style: italic;
+}
+
+.date {
+    color: rgb(196, 53, 53);
+}
+
+.author {
+    color: rgb(122, 13, 75);
+    font-weight: bold;
+}
+.table{
+    display:table;
+}
+.td{
+    display: table-cell;
+    margin: 15%;
+}
+.tr{
+    display: table-row;
+}

@@ -1,0 +1,15 @@
+<%- include('./header')-%>
+<body>
+    <div class="container">
+        <p class="lead"> Args:<%= JSON.stringify(argv) %></p>
+        <p class="lead"> Platform Name: <%= process.platform %></p>
+        <p class="lead"> Node.js version:<%= process.version %></p>
+        <p class="lead"> RSS:<%= process.memoryUsage().rss %></p>
+        <p class="lead"> Execution Path:<%= process.cwd() %></p>
+        <p class="lead"> Process id:<%= process.pid %></p>
+        <p class="lead"> Project Folder:<%= __dirname %></p>
+        <p class="lead"> CPU Count:<%= cpus %></p>
+        <p class="lead"> Byte Size:<%= bytes %></p>
+
+    </div>
+</body>

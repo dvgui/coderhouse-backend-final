@@ -1,0 +1,30 @@
+<% if (typeof user!=='undefined') { %>
+    <form action="/logout">
+        <div class="alert alert-primary">
+            Welcome <%= user.email %> !
+            <input type="submit" value="Logout" class="btn btn-primary">
+        </div>
+        <div class="alert alert-primary"> 
+            <p>Name: <%=user.name%> </p>
+            <p>Phone: <%=user.telephone%> </p>
+            <p>Age: <%=user.age%> </p>
+           
+        </div>
+    </form>
+
+<% }else{ %>
+<form action="/login" method="post" role="form" class="form">
+    <div class="form-group">
+        <label for="email">Enter your Email Here: </label>
+        <input id="email" name="email" placeholder="Email" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="password">Enter your password: </label>
+        <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+    </div>
+    <div class="form-group">
+        
+        <input id="usernameInput" class="btn btn-success my-3" type="submit" value="Login">
+    </div>
+</form>
+<% } %>

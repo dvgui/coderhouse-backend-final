@@ -1,0 +1,44 @@
+<script>
+</script>
+<div>
+    <p id="compression"></p>
+</div>
+<form id="message-form" onsubmit="return addMessage(this);">
+    <div class="form-group">
+        <label for="username"><b>E-mail</b></label>
+        <input class="form-control" type="text" id="username" name="title">
+    </div>
+    
+    <div class="form-group">
+        <label for="firstName"><b>Name</b></label>
+        <input class="form-control" type="text" id="firstName" name="firstName">
+    </div>
+    
+    <div class="form-group">
+        <label for="lastName"><b>Last Name</b></label>
+        <input class="form-control" type="text" id="lastName" name="lastName">
+    </div>
+    <div class="form-group">
+        <label for="age"><b>Age</b></label>
+        <input class="form-control" type="text" id="age" name="price">
+    </div>
+    <div class="form-group">
+        <label for="alias"><b>Alias</b></label>
+        <input class="form-control" type="text" id="alias" name="alias">
+    </div>
+    <div class="form-group">
+        <label for="avatar"><b>Avatar</b></label>
+        <input class="form-control" type="text" id="avatar" name="avatar">
+    </div>
+    <div class="form-group">
+        <label for="message-text"><b>Message</b></label>
+        <input class="form-control" type="text" id="message-text" name="price">
+    </div>
+
+    <input value="Send Message" id="sendMessage" class="btn btn-primary mt-3 mb-5" type="submit"></input>
+</form>
+<div id="mailError-container" class="table-responsive">
+</div>
+<div id="message-container" class="container">
+
+</div>
