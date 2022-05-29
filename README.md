@@ -33,7 +33,7 @@ Node.js backend course project
   
   
   
-## Login y Sign Up
+## Signing Up and Signing In
 
   This site stores users on the cloud. Sessions last 10 minutes or until sign out.
 
@@ -88,7 +88,7 @@ The app supports MariaDB and SQLite3.
 
 Messages are stored using mongoDB.
 
-## Archivo .env
+## Environment File
 Environment variables are provided on a env.sample file
 
 ## Gzip
